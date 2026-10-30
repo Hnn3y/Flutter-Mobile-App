@@ -1,5 +1,7 @@
 void main() {
-  var age = 25;
-  var temp = -3;
-  print('$age $temp'); // 25
+  var isAdult = true;
+  var hasLicense = true;
+  var canDrive = isAdult && hasLicense; // true, both are true
+  var cannotDrive = !canDrive;          // false, flipped
+  print(canDrive); // true
 }
