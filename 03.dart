@@ -1,5 +1,6 @@
-import 'dart:io';
-
-main() {
-  var syote = stdin.readLineSync();
+void main() {
+  var age = 20;
+  if (age >= 18) {
+    print('You can vote');
+  }
 }
